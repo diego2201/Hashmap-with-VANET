@@ -1,0 +1,69 @@
+//This is a sample output only, some part of outputs are deleted intentionally, but the format is the same.
+//Generated on Oct 14, 2021.
+
+2016 is a leap year, and the difference: 5 years, 6 months, and 7 days.
+2018 is not a leap year, and the difference: 2 years, 11 months, and 2 days.
+2020 is a leap year, and the difference: 1 years, 4 months, and 14 days.
+2021 is not a leap year, and the difference: 0 years, 0 months, and 4 days.
+
+Initial Hashmap:
+2020-05-30:3
+2011-03-15:4
+2016-04-07:1
+1900-01-01:6
+2004-01-01:7
+
+Now the Hashmap after sorting:
+1900-01-01:6
+1900-12-31:8
+2020-05-30:3
+2021-10-10:10
+
+
+ASCII average: 78
+
+Stations with the same average are: {veh102=78, veh201=78, veh300=78, ,,, veh110=78, veh120=78}
+
+Unsroted Hashmap:
+veh102 has the average of 78
+veh201 has the average of 78
+veh110 has the average of 78
+veh120 has the average of 78
+
+The sorted map:
+veh100
+veh101
+veh102
+veh201
+veh210
+veh300
+
+The dates in HashMap are sorted using algorithm:
+
+Sorting of the dates in descending order:
+
+2050-12-31
+2047-02-28
+2042-10-30
+2038-02-02
+2011-03-15
+2010-11-01
+2010-10-30
+2004-01-01
+2003-04-25
+2000-12-15
+
+Sorting of the dates in ascending order:
+2000-12-15
+2003-04-25
+2004-01-01
+2010-10-30
+2010-11-01
+2026-05-06
+2038-02-02
+2042-10-30
+2047-02-28
+2050-12-31
+
+Execution time for the case 1: 2653400
+Execution time for the case 2: 360900
